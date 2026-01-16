@@ -17,15 +17,17 @@
 
 STEPS DONE:
 1. Create Workspace : os2 pkg create --build-type ament_python task4_space_ws  <-- this will create a coding workspace for ros2
-    The file format as below will be created : 
+2, The file structure format as below:
 task4_space_ws/
+├── launch/
+│   └── my_robot.launch.py
+├── config/
+│   └── my_controllers.yaml
+├── my_robot.urdf.xacro
 ├── package.xml
 ├── setup.py
-├── setup.cfg
-├── task4_space_ws/      <-- Python module
-│   └── __init__.py
-├── launch/              <-- we’ll put launch files here
-└── test/
+└── task4_space_ws/
+    └── __init__.py
 
 1. ros2 launch gazebo_ros gazebo.launch.py
 2. xacro ~/my_robot.urdf.xacro > ~/my_robot.urdf
