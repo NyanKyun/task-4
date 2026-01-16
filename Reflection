@@ -13,3 +13,11 @@
 7. Model_state - The state of a model at a certain time
 
 8. Model - Kinematic and dynamic properties of a robot structure.
+
+
+STEPS DONE:
+1. ros2 launch gazebo_ros gazebo.launch.py
+2. xacro ~/my_robot.urdf.xacro > ~/my_robot.urdf
+3. ros2 run gazebo_ros spawn_entity.py \
+  -entity my_robot \
+  -file /home/nadiah/Documents/Short-Sem-Robotic/tas4_space/my_robot.urdf
