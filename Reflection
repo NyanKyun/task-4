@@ -28,6 +28,9 @@ task4_space_ws/
 ├── setup.py
 └── task4_space_ws/
     └── __init__.py
+3. Build package : 
+cd ~/Documents/Short-Sem-Robotic/task4_space_ws
+colcon build
 
 1. ros2 launch gazebo_ros gazebo.launch.py
 2. xacro ~/my_robot.urdf.xacro > ~/my_robot.urdf
