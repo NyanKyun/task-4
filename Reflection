@@ -1,0 +1,15 @@
+1. Robot - Properties of a robot.
+
+2. Sensor/proposals - shows what a sensor is, such as a camera, ray sensor, etc
+
+3. Link - Kinematic and dynamic properties of a link.
+
+4. Transmission -Transmissions link actuators to joints and represents their mechanical coupling
+
+5. Joint - Kinematic and dynamic properties of a joint.
+
+6. Gazebo - Simulation properties, such as damping, friction, etc
+
+7. Model_state - The state of a model at a certain time
+
+8. Model - Kinematic and dynamic properties of a robot structure.
